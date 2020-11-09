@@ -1,9 +1,12 @@
-div{
-  display: inline-block;
+*{
+  background-color: green;
 }
-span{
-  width: 200px;
-  height: 100px;
-  background-color: yellow;
-  display:block;
+li{
+  font-size: 24px;
+}
+.page-header{
+  background-color: orange;
+}
+#best{
+  border: 2px solid red;
 }
