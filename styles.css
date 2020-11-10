@@ -1,26 +1,17 @@
 div {
-    border: 2px solid black;
-    margin: 50px;
+  border: 2px solid black;
+  padding: 50px;
 }
-.blue{
+.blue {
   background-color: blue;
-  height: 400px;
+  margin: 50px;
 }
-.yellow{
-  position: relative;
-  width: 1145px;
+.yellow {
   background-color: yellow;
-  height: 300px;
 }
-.green{
-  position: relative;
-  width: 1045px;
+.green {
   background-color: green;
-  height: 200px;
 }
-.pink{
-  position: relative;
-  width: 945px;
+.pink {
   background-color: pink;
-  height: 100px;
 }
