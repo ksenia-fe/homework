@@ -36,22 +36,22 @@ main{
   flex-grow: 1;
   display: flex;
 }
-.section{
+section{
   flex-grow: 1;
   background-color: pink;
   display:flex;
 }
 
-.section>h2{
+section>h2{
   margin: auto;
 }
-.aside{
+aside{
   width: 200px;
   background-color: grey;
   display: flex;
   flex-direction: column;
 }
-.aside>h2{
+aside>h2{
   margin: 16px auto;
 }
 footer{
