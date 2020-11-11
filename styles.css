@@ -4,30 +4,21 @@ body{
 .block{
   height: 200px;
   display: inline-block;
-  margin: 0;
-  width: 273.2px;
+  width: 20%;
+  float: left;
 }
 .block_red{
-  position: absolute;
   background-color: red;
 }
 .block_green{
-  left:273.2px;
-  position: relative;
   background-color:green;
 }
 .block_blue{
-  left:269.3px;
-  position: relative;
   background-color: blue;
 }
 .block_yellow{
-  left:266.1px;
-  position: relative;
   background-color: yellow;
 }
 .block_black{
-  left: 262.5px;
-  position: relative;
   background-color: black;
 }
