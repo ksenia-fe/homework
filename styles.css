@@ -1,21 +1,33 @@
+body{
+  margin: 0;
+}
 .block{
   height: 200px;
-  box-sizing: border-box;
   display: inline-block;
-  width: 19.7%;
+  margin: 0;
+  width: 273.2px;
 }
 .block_red{
+  position: absolute;
   background-color: red;
 }
 .block_green{
+  left:273.2px;
+  position: relative;
   background-color:green;
 }
 .block_blue{
+  left:269.3px;
+  position: relative;
   background-color: blue;
 }
 .block_yellow{
+  left:266.1px;
+  position: relative;
   background-color: yellow;
 }
 .block_black{
+  left: 262.5px;
+  position: relative;
   background-color: black;
 }
