@@ -1,21 +1,17 @@
-body{
-  flex-wrap: wrap;
+header>h1{
+  text-align: center;
 }
-header{
-  display: flex;
-}
+
 .article-list{
   display: flex;
+  flex-wrap: wrap;
 }
-header>h1{
-  margin: 0 auto;
-}
+
 .article{
-  display: block;
-}
-.article>h2,.article>p{
-  margin: 8px;
+  width: 300px;
+  flex-grow: 1;
+  flex-shrink: 0;
   padding: 16px;
+  margin: 8px;
   background-color: bisque;
-  min-width: 300px;
 }
