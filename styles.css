@@ -2,17 +2,6 @@
   box-sizing: border-box;
 }
 
-.gallery{
-  display: flex;
-}
-
-.image{
-  height: 200px;
-  width: 200px;
-}
-
-.image:nth-child(1), .image:nth-child(2), .image:nth-child(3){
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+body{
+  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
 }
