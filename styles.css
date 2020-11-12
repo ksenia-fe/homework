@@ -10,12 +10,13 @@ div{
 
 .text{
   position: relative;
+  margin-top: 8px;
 }
 
 .tooltip{
   display: none;
   position: absolute;
-  bottom: -25px;
+  bottom: -23px;
   left: 0;
   background-color: grey;
   color:white;
