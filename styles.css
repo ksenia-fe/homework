@@ -1,6 +1,6 @@
-.vid{
-  width: 500px;
+iframe{
   display: block;
-  margin:0 auto;
-  margin-top: 200px;
+  margin: 100px auto;
+  width: 500px;
+  height: 400px;
 }
