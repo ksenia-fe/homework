@@ -1,16 +1,17 @@
 .image-container{
   display: flex;
+  position: relative;
 }
 
 .image{
-  position: relative;
+  display: flex;
   margin: auto;
   flex-shrink: 1;
   max-width: 100%;
 }
 
 .image-button{
-  background-color: #ffe3c2;
+  background-color: hsl(33, 100%, 88%);
   opacity: 0.5;
   text-align: center;
   line-height: 50px;
@@ -22,9 +23,10 @@
   position: absolute;
   cursor: pointer;
   left: 43%;
-  top: 23%;
+  top: 43%;
 }
 
 .image-button:hover{
+  background-color: hsl(33, 100%, 88%);
   opacity: 1;
 }
