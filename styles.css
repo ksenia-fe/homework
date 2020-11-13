@@ -1,7 +1,13 @@
-*{
-  box-sizing: border-box;
+html{
+  font-size: 18px;
 }
 
-body{
-  background-image: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson+13/hw2/background.jpg);
+.properties-list{
+  color: #f39;
+  font-size: 24px;
+  list-style: none;
+}
+
+.properties-list__item{
+  padding: 8px;
 }
