@@ -45,12 +45,12 @@ input{
   border: 1px solid #808080;
   outline: none;
   padding: 4px;
-  line-height: 21px;
+  height: 32px;
 }
 
 button{
   width: 100%;
-  line-height: 28px;
+  height: 32px;
   margin-top: 16px;
   background-color: #ff7f50;
   color: #fff;
