@@ -12,8 +12,8 @@ form{
   width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0px #00000033;
-  margin-top: 150px;
-  margin-left: 250px;
+  margin-top: 175px;
+  margin-left: 300px;
   font-family: monospace;
 }
 
@@ -37,7 +37,6 @@ input{
   border: 1px solid #808080;
   outline: none;
   padding: 4px;
-  line-height: 16px;
 }
 
 button{
