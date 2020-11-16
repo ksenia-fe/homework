@@ -9,3 +9,7 @@ div{
 .nomargin, .nomargin-2{
   margin: 0;
 }
+
+.nomargin{
+  margin-right: 5px;
+}
