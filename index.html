@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Images</title>
+    <title>Checkbox</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -13,28 +13,10 @@
   </head>
 
   <body>
-    <form>
-      <div>
-        <label for="lastname">Last Name</label>
-        <input id="lastname" type="text" name="lastName" value="Emerson">
-      </div>
-      <div>
-        <label for="age">Age</label>
-        <input id="age" type="number" name="age" value="17" required min="3" max="10">
-      </div>
-      <div class="inline">
-        <div id="terms-and-conditions" class="nomargin"><input type="checkbox" name="agree" disabled></div>
-        <label for="terms-and-conditions">Accept terms and conditions</label>
-      </div>
-      <div class="choose-gender">
-        <input id="male" type="radio" name="gender" checked>
-        <label for="male">Male</label>
-        <input id="female" type="radio" name="gender">
-        <label for="female">Female</label>
-        <input id="secret" type="radio" name="gender">
-        <label for="secret">Secret</label>
-      </div>
-      <div><textarea name="description" placeholder="Write description..." maxlength="10"></textarea></div>
-      <div><button type="submit">Submit</button></div>
-  </form>
+    <label class="checkbox"
+      >Checkbox
+      <input type="checkbox" />
+      <span class="checkmark"></span>
+    </label>
+  </body>
 </html>
