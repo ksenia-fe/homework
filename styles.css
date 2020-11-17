@@ -19,7 +19,7 @@ table{
 td, th{
   padding: 4px;
   text-align: right;
-  line-height: 32px;
+  line-height: 30px;
 }
 
 tbody>tr:nth-child(odd){
