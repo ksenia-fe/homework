@@ -1,20 +1,18 @@
-body{
-  display: flex;
-}
-
 form{
   margin: 32px;
-  display: flex;
-  flex-direction: column;
 }
 
-input, textarea, select, button{
+div{
+  margin:8px;
+}
+
+/* input, textarea, select, button{
   margin: 4px;
 }
 
 input[type="radio"]{
   margin-right: 0;
-}
+} */
 
 /* .languages>input{
   margin-top: 0;
