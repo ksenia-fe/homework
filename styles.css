@@ -12,14 +12,9 @@ input[type="radio"]{
   margin-right: 0;
 }
 
-label{
-  margin-left: -3px;
-  margin-right: -6px;
-}
-
-.languages>input{
+/* .languages>input{
   margin-top: 0;
-}
+} */
 
 /* .languages{
   display: flex;
