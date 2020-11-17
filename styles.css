@@ -1,7 +1,18 @@
-form{
-  margin: 32px;
+*{
+  box-sizing: border-box;
 }
 
-div{
-  margin:8px;
+table, td{
+  border: 1px solid #000000;
+  border-collapse: collapse;
+}
+
+table{
+  width: 500px;
+  margin: 16px;
+}
+
+td{
+  padding: 4px;
+  text-align: right;
 }
