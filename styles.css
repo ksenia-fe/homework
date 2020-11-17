@@ -16,16 +16,10 @@ table{
   margin: 16px;
 }
 
-td{
+td, th{
   padding: 4px;
   text-align: right;
   height: 40px;
-}
-
-th{
-  padding: 4px;
-  text-align: right;
-  line-height: 30px;
 }
 
 tbody>tr:nth-child(odd){
