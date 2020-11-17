@@ -17,10 +17,9 @@ label{
   margin-right: -6px;
 }
 
-/* .languages>input{
-  margin: 0;
-  margin-left: 9px;
-} */
+.languages>input{
+  margin-top: 0;
+}
 
 /* .languages{
   display: flex;
