@@ -12,7 +12,7 @@ table{
   margin: 16px;
 }
 
-td{
+td, th{
   padding: 4px;
   text-align: right;
 }
