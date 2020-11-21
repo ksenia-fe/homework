@@ -1,15 +1,20 @@
 // let arr = [2,3,4,5,67,7];
 // let delta = 10;
+let arrOfDelta = [];
 
-// const increaseEvenEl = (arr, delta) => {
-//   if(Array.isArray(arr)){
-//     for(let i = 0; i < arr.length; i++){
-//       if(i%2 === 0){
-//         i += delta;
-//       }
-//     }
-//   }else return null;
-// }
+const increaseEvenEl = (arr,delta) => {
+  if(!Array.isArray(arr)){
+    return null;
+  }
+  
+  for(let i = 0; i < arr.length; i++){
+    if(arr[i]%2 === 0){
+      arr[i] += delta;
+      arrOfDelta.push(arr[i]);
+    }
+  }
+  return arrOfDelta;
+}
 
 // console.log(increaseEvenEl(arr,delta));
 
@@ -49,10 +54,10 @@
 // console.log(checker(arr));
 
 
-function checkSum(arr){
-  if(!Array.isArray(arr)){
-          return null;
-      }
-  let sumOfElements = 0;
-  
-}
+// function checkSum(arr){
+//   if(!Array.isArray(arr)){
+//           return null;
+//       }
+//   let sumOfElements = 0;
+
+// }
