@@ -1,5 +1,5 @@
-let arr = [2,3,4,100];
-let sum = 0;
+// let arr = [2,3,4,100];
+// let sum = 0;
 
 function checkSum(arr) {
   if(Array.isArray(arr)){
@@ -14,4 +14,4 @@ function checkSum(arr) {
   }else return null;
 }
 
-console.log(checkSum(arr));
+// console.log(checkSum(arr));

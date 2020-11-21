@@ -34,16 +34,25 @@
 
 
 
-function checker(arr){
-  let sum = Math.max(...arr) + Math.min(...arr);
+// function checker(arr){
+//   let sum = Math.max(...arr) + Math.min(...arr);
 
-  if(!Array.isArray(arr)){
-      return null;
-  }
-    if(sum > 1000){ 
-      return true;
-      }
-    else return false;
-}
+//   if(!Array.isArray(arr)){
+//       return null;
+//   }
+//     if(sum > 1000){ 
+//       return true;
+//       }
+//     else return false;
+// }
 
 // console.log(checker(arr));
+
+
+function checkSum(arr){
+  if(!Array.isArray(arr)){
+          return null;
+      }
+  let sumOfElements = 0;
+  
+}
