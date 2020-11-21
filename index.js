@@ -2,6 +2,7 @@
 // let sum = 0;
 
 function checkSum(arr) {
+  let sum = 0;
   if(Array.isArray(arr)){
     for(let i = 0; i < arr.length; i++){
       sum += i;
