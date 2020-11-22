@@ -1,63 +1,18 @@
-// let arr = [2,3,4,5,67,7];
-// let delta = 10;
-let arrOfDelta = [];
+let clients = ['Ann', 'John', 'User'];
+let balances = [1400, 87, -6];
+let client = 'Ann';
+let amount = 1500;
 
-const increaseEvenEl = (arr,delta) => {
-  if(!Array.isArray(arr)){
-    return null;
+function withdraw(clients, balances, client, amount){
+  let indexOfPerson = clients.indexOf(client);
+
+  if (balances[indexOfPerson] >= amount){
+    balances[indexOfPerson] -= amount;
+    return balances;
+  }else if(balances[indexOfPerson] < amount){
+    return -1;
   }
-  
-  for(let i = 0; i < arr.length; i++){
-    if(arr[i]%2 === 0){
-      arr[i] += delta;
-      arrOfDelta.push(arr[i]);
-    }
-  }
-  return arrOfDelta;
+
 }
 
-// console.log(increaseEvenEl(arr,delta));
-
-
-
-// function ar(arr){
-//   if(Array.isArray(arr)){
-//     console.log(arr.reverse());
-//   }else return null;
-// }
-
-// console.log(ar(0));
-
-// function cloneArr(arr){
-//   let newArr = [];
-//   if(Array.isArray(arr)){
-//       newArr = arr;
-//   }else return null;
-
-//   return newArr;
-// }
-
-
-
-// function checker(arr){
-//   let sum = Math.max(...arr) + Math.min(...arr);
-
-//   if(!Array.isArray(arr)){
-//       return null;
-//   }
-//     if(sum > 1000){ 
-//       return true;
-//       }
-//     else return false;
-// }
-
-// console.log(checker(arr));
-
-
-// function checkSum(arr){
-//   if(!Array.isArray(arr)){
-//           return null;
-//       }
-//   let sumOfElements = 0;
-
-// }
+console.log(withdraw(clients, balances, client, amount));
