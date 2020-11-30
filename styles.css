@@ -1,30 +1,29 @@
-.custom-button{
-  margin: 64px;
-  width: 200px;
-  height: 50px;
-  line-height: 50px;
-  color: #ffffff;
-  background-color: #ff7f50;
-  border-radius: 4px;
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: 700;
-  border: none;
-  cursor: pointer;
-  text-transform: uppercase;
-  
+.icons{
+  display: flex;
+  justify-content: space-around;
 }
 
-.custom-button:hover{
-  color: darkcyan;
+.fa-battery-full{
+  vertical-align: top;
+  font-size: 16px;
 }
 
-.custom-button:hover > .bird-to-catch{
-  fill: #008000;
+.fa-battery-three-quarters{
+  vertical-align: top;
+  font-size: 32px;
 }
 
-.bird-to-catch{
-  width: 32px;
-  height: 32px;
-  fill: #ffffff;
-  vertical-align: middle;
+.fa-battery-half{
+  vertical-align: top;
+  font-size: 64px;
+}
+
+.fa-battery-quarter{
+  vertical-align: top;
+  font-size: 128px;
+}
+
+.fa-battery-empty{
+  vertical-align: top;
+  font-size: 256px;
 }
